@@ -53,12 +53,9 @@ function desencriptar(stringDesencriptada){
 
 function btnCopiar() {
     var content = document.getElementById('textArea');
-    
     content.select();
     document.execCommand('copy');
-    
     mensaje.value = ""
-
     alert("Texto Copiado!");
 }
 
